@@ -1,5 +1,26 @@
+.container {
+  max-width: 80%;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.product-line-wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px auto;
+  align-items: center;
+}
+
 input {
   border: solid 1px black;
+}
+
+.quantity {
+  margin: 0 5px;
+  width: 100px;
 }
 
 .btn {
@@ -24,6 +45,11 @@ input {
   border-radius: 4px;
 }
 
+.center {
+  display: flex;
+  justify-content: center;
+}
+
 .btn-success {
     color: #fff;
     background-color: #5cb85c;
@@ -36,6 +62,5 @@ input {
     border-color: #CF000F;
 }
 
-.quantity {
-  margin: 0 5px;
-}
+
+
